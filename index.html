@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.css">
+
+    <script src="app.js"></script>
+
+
+</head>
+<body ng-app="app">
+<div ng-controller="ArtsCtrl">
+
+    <div class="ui link cards">
+        <div class="column" ng-repeat="art in arts" style="padding: 30px">
+            <div class="ui fluid card">
+                <div class="image">
+                    <img src="/images/{{art.file}}">
+                </div>
+                <div class="content">
+                    <a class="header">{{art.title}}</a>
+                    <div class="meta">
+                        {{art.shortNote}}
+                    </div>
+                    <div class="description">
+                        {{art.description}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+

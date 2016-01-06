@@ -1,0 +1,20 @@
+[
+  {
+    "file": "daniel.jpg",
+    "title": "Daniel",
+    "shortNote":"Director",
+    "description": "Daniel is an art director living in New York."
+  },
+  {
+    "file": "jenny.jpg",
+    "title": "Jenny",
+    "shortNote":"Copywriter",
+    "description": "Jenny  is a copywriter working in Paris."
+  },
+  {
+    "file": "steve.jpg",
+    "title": "Steve",
+    "shortNote":"Designer",
+    "description": "Steve is a designer living in New York."
+  }
+]
