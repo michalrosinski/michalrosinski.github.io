@@ -16,5 +16,12 @@
     "title": "Steve",
     "shortNote":"Designer",
     "description": "Steve is a designer living in New York."
+  },
+  {
+    "file": "fred.png",
+    "title": "Fred",
+    "shortNote":"Caveman",
+    "description": "Fred lives in cave"
   }
+
 ]
