@@ -1,4 +1,5 @@
 #!/bin/sh
 
-git add .
-git reset origin master --hard
+git add --all .
+git stash
+git pull origin master
