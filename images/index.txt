@@ -18,10 +18,10 @@
     "description": "Steve is a designer living in New York."
   },
 {
-    "file": “fakedoc.jpg",
-    "title": “FAKE”,
+    "file": "fakedoc.jpg",
+    "title": "FAKE",
     "shortNote":"Designer",
-    "description": “Fake is a designer living in New York."
+    "description": "Fake is a designer living in New York."
   }
   
 ]
